@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Building Management System , the building is a foor floors skyscraper with three houses a house in each floor , each house is a smart house with a very smart systme plus a  secure syndicate interface in our web page ; live a smart , conneted and secure life. ">
+    <meta name="keywords" content="Smart Building, IoT, Home Automation , Smart guarden , Smart houses , AI , SI , Embadded systems ....">
+    <meta name="author" content="W.D.B Owner">
+
+    <!-- Page Title -->
+    <title>W.D.B - A Smarter Home for a Smarter You</title>
+
+    <!-- Material Icons Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/plugins.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/style-demo.css') }}">
+    <link class="site-color" rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/color.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/custom.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loading-text">
+            <span class="loading-text-words" data-preloader="L">L</span>
+            <span class="loading-text-words" data-preloader="O">O</span>
+            <span class="loading-text-words" data-preloader="A">A</span>
+            <span class="loading-text-words" data-preloader="D">D</span>
+            <span class="loading-text-words" data-preloader="I">I</span>
+            <span class="loading-text-words" data-preloader="N">N</span>
+            <span class="loading-text-words" data-preloader="G">G</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <a class="logo" href="#home">
+            <img src="{{ url_for('static', filename='images/favicon.ico') }}" alt="W.D.B Logo" class="favicon-logo">
+        </a>        
+        <div class="menu-button">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+        <nav class="nav-menu">
+            <div class="nav-menu--links">
+                <a class="nav-menu--link link--active" href="#home"><i class="fas fa-home"></i><span>Home</span></a>
+                <a class="nav-menu--link" href="#guide"><i class="fas fa-user"></i><span>Guide</span></a>
+                <a class="nav-menu--link" href="#syndicate"><i class="fas fa-user"></i><span>Syndicate</span></a>
+                <a class="nav-menu--link" href="#gallery"><i class="fas fa-image"></i><span>Gallery</span></a>
+                <a class="nav-menu--link" href="#feedback"><i class="fas fa-envelope"></i><span>Feedback</span></a>
+            </div>
+            <div class="social-links">
+                <a class="social-link" href="https://x.com/DouaeLamri19492"><i class="bi bi-twitter-x"></i></a>
+                <a class="social-link" href="https://www.instagram.com/douae._.lamrini/"><i class="fab fa-instagram"></i></a>
+                <a class="social-link" href="https://www.linkedin.com/in/douae-lamrini/"><i class="fab fa-linkedin"></i></a>
+                <a class="social-link" href="https://github.com/DOUAE-LAMRINI"><i class="fab fa-github"></i></a>
+                <a class="social-link" href="https://web.facebook.com/profile.php?id=61573415619956"><i class="fab fa-facebook"></i></a>
+                <a class="social-link" href="https://www.snapchat.com/add/dou-lam"><i class="fab fa-snapchat"></i></a>
+            </div>
+            <div class="copy">
+                <p>Copyright ©2024 W.D.Building , All rights Reserved.</p>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div id="main" class="pages-stack">
+        <!-- Home Section -->
+        <section id="home" class="page section-home">
+            <div id="particles-js"></div>
+            <div class="banner-text">
+                <h4>W . D . B</h4> <br>
+                <div class="text-slideshow" data-effect="fx12">
+                    <div class="text-slide text-slide--current"><h2 class="animate-title">Connected Homes</h2></div>
+                    <div class="text-slide"><h2 class="animate-title">Protected Families</h2></div>
+                </div>
+            <!--
+                <div class="theme-buttons">
+                    <button id="light-mode-btn" class="theme-btn">Light Mode</button>
+                    <button id="dark-mode-btn" class="theme-btn">Dark Mode</button>
+                </div>
+            -->
+            </div>
+        </section>
+
+        <!-- Guide Section -->
+        <section id="guide" class="page section-guide">
+            <div class="container">
+                <div class="page-heading">
+                    <h2 data-shadow="guide">Guide</h2><br>
+                </div>
+                <div class="guide-content">
+                    <h3>WHO WE ARE</h3>
+                    <p>We are a team of innovators dedicated to creating smarter, safer, and more connected living spaces. Our mission is to enhance your lifestyle through cutting-edge technology and seamless automation.</p>
+                </div>
+                <div class="guide-content">
+                    <h3><i class="fas fa-info-circle"></i> ABOUT OUR PAGE <i class="fas fa-info-circle"></i></h3>
+                    <p>This page is your gateway to understanding and managing your smart home. From controlling devices to accessing real-time data, everything is designed to make your life easier. Explore the features and get the most out of your smart building experience.</p>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-list">
+                        <h3> How to Use the Syndicate Chatbot</h3>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Log in first:</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The Syndicate Chatbot is designed exclusively for residents of our smart building. Log in with your credentials to access personalized assistance.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Is it safe to use the Syndicate Chatbot?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Your safety and the security of your information are our top priorities. Rest assured, your data is protected, and no unauthorized access is allowed.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>What if I ask something not related to the building?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The chatbot is programmed to handle a variety of questions beyond building-related queries, ensuring you have the best possible experience.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>What's the feedback form for?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The feedback form allows residents to share their experiences, suggest improvements, and rate their overall satisfaction with our services.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>How many languages does the Syndicate support?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Currently, the Syndicate primarily operates in English. However, for important house-related queries, it can also respond in Arabic and French based on the user's preference.</p>
+                            </div>
+                        </div> <br> 
+                    </div>
+                    <div class="faq-list">
+                        <h3>Important Questions</h3>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>How do I check the temperature in my house?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Simply ask the chatbot, "What's the temperature in my house?" and it will provide you with the latest reading.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>What should I do if I detect unusual activity?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>If you notice any unusual activity, immediately contact the building security team and follow their instructions.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>How do I report equipment issues?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The Syndicate will provide you with the contact information of a technician who can assist you.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>How do I reset utilities?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>The Syndicate will guide you through resetting utilities manually if it's straightforward. For more complex issues, it will connect you with a technician.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>How do I reserve spaces or check the garbage schedule?</span>
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>You can ask the chatbot about garbage schedules, shared spaces, and reservations for common areas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <br> 
+            </div>
+        </section>
+
+        <!-- Syndicate Section -->
+        <section id="syndicate" class="page section-syndicate">
+            <div class="container">
+                <div class="page-heading">
+                    <h2 data-shadow="syndicate">Syndicate</h2><br>
+                </div>
+                <div class="page-synd-back">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="chat-title">How can I help you?</div>
+                        <div class="chat-actions">
+                            <button id="delete-chat" class="chat-action-btn">Delete Chat</button>
+                            <button id="logout-button" class="chat-action-btn">Logout</button>
+                        </div>
+                    </div>
+                    <div class="message-space">
+                        <ul id="chatbox"></ul>
+                    </div>
+                    <div class="chat-input">
+                        <textarea id="chat-input" placeholder="Send a message..."></textarea>
+                        <button id="send-chat-btn"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            </div> <br> 
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="page section-gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-heading">
+                            <h2 data-shadow="Gallery">Gallery</h2><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gallery-items mb-30">
+                    <!--Gallery item-->
+                    <div class="item col-lg-4 col-sm-6 graphic brand">
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/2.jpg') }}" alt="">
+
+                            <figcaption>
+                                <h3>Outer view.</h3>
+                                <p>W_D_B</p>
+                                <i class="fas fa-image"></i>
+                            </figcaption>
+
+                        </figure>
+                    </div>
+
+                    <!--Gallery item-->
+                    <div class="item col-lg-4 col-sm-6 design graphic">
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/3.jpg') }}" alt="">
+
+                            <figcaption>
+                                <h3>Closer outer view.</h3>
+                                <p>W_D_B</p>
+                                <i class="fas fa-image"></i>
+                            </figcaption>
+
+                        </figure>
+                    </div>
+
+                    <!--Gallery item-->
+                    <div class="item col-lg-4 col-sm-6 design graphic">
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/4.jpg') }}" alt="">
+
+                            <figcaption>
+                                <h3>The building entery.</h3>
+                                <p>W_D_B</p>
+                                <i class="fas fa-image"></i>
+                            </figcaption>
+
+                        </figure>
+                    </div>
+
+                    <!--Gallery item-->
+                    <div class="item col-lg-4 col-sm-6 graphic">
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/5.jpg') }}" alt="">
+
+                            <figcaption>
+                                <h3>The building's gardin.</h3>
+                                <p>W_D_B</p>
+                                <i class="fas fa-image"></i>
+                            </figcaption>
+
+                        </figure>
+                    </div>
+
+                    <!--Gallery item-->
+                    <div class="item col-lg-4 col-sm-6 brand design">
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/6.jpg') }}" alt="">
+
+                            <figcaption>
+                                <h3>A closer look to the outside of the building .</h3>
+                                <p>W_D_B</p>
+                                <i class="fas fa-image"></i>
+                            </figcaption>
+
+                        </figure>
+                    </div>
+
+                    <!--Gallery item-->
+                    <div class="item col-lg-4 col-sm-6 brand design">
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/7.jpg') }}" alt="">
+
+                            <figcaption>
+                                <h3>One of the bueautiful spots in the building's gardin.</h3>
+                                <p>W_D_B</p>
+                                <i class="fas fa-image"></i>
+                            </figcaption>
+
+                        </figure>
+            </div>
+        </section>
+
+        <!-- Feedback Section -->
+        <section id="feedback" class="page section-feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-heading">
+                            <h2 data-shadow="feedback">Feedback</h2><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-feed-back ">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <form id="feedback-form">
+                            <div class="form-group">
+                                <input type="text" id="feedback-name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="feedback-email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="feedback-house-number" placeholder="House Number" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="feedback-message" placeholder="Your feedback..." required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" id="feedback-rating" placeholder="Rating (1-5) ⭐" min="1" max="5" required />
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn" id="cf-submit">Send Message</button>
+                            </div>
+                        </div>
+                        </form> <br> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <div class="card-3d-wrap">
+                <div class="card-3d-wrapper">
+                    <div class="card-front">
+                        <div class="center-wrap">
+                            <h4>Log In</h4>
+                            <div class="form-group">
+                                <input type="text" id="house-number" class="form-style" placeholder="House Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="username" class="form-style" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-style" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" id="password" class="form-style" placeholder="Password">
+                            </div>
+                            <button class="btn" id="login-submit">Login</button>
+                            <p><a href="#" id="forgot-password">Forgot Password?</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="{{ url_for('static', filename='JS/modernizr.js') }}"></script>
+    <!--<script src="{{ url_for('static', filename='JS/toggle.js') }}"></script>-->
+    <script src="{{ url_for('static', filename='JS/tracking.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/plugins.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/guide.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/main-demo.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/loading.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/chatbot.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/particles.js') }}"></script>
+    <script>
+        particlesJS.load('particles-js', "{{ url_for('static', filename='JS/particles2.json') }}", function() {
+            console.log('Particles.js config loaded');
+        });
+    </script>
+</body>
+</html>

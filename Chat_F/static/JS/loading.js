@@ -1,0 +1,1 @@
+particlesJS.load('particles-js', '/static/JS/particles2.json', function() { console.log('callback - particles.js config loaded');});

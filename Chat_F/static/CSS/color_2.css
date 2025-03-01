@@ -1,0 +1,317 @@
+/*======== General Styles ========*/
+.page {
+  background-color: #0a192f; /* Dark navy blue */
+}
+
+.pages-stack--open .page {
+  box-shadow: 0 -1px 10px rgba(0, 9, 54, 0.8); /* Darker shadow */
+}
+
+body {
+  color: #c9d1d9; /* Light gray text */
+  background-color: #0a192f; /* Dark navy blue */
+}
+
+.preloader {
+  background: #020c1b; /* Very dark blue */
+}
+
+.loading-text span:before {
+  color: #c9d1d9; /* Light gray */
+}
+
+/*======== Header ========*/
+header .nav-menu .nav-menu--link {
+  color: #64ffda; /* Teal accent */
+}
+
+header .nav-menu .nav-menu--link:hover,
+header .nav-menu .nav-menu--link.link--active {
+  color: #52d1b2; /* Slightly darker teal */
+}
+
+header .nav-menu .social-links .social-link {
+  color: #64ffda; /* Teal accent */
+}
+
+header .nav-menu .social-links .social-link:hover {
+  color: #52d1b2; /* Slightly darker teal */
+}
+
+header .nav-menu .copy {
+  color: rgba(100, 255, 218, 0.8); /* Semi-transparent teal */
+}
+
+header .logo {
+  color: #c9d1d9; /* Light gray */
+}
+
+header .menu-button .line {
+  background-color: #64ffda; /* Teal accent */
+}
+
+header .menu-button:before {
+  background-color: #0a192f; /* Dark navy blue */
+}
+
+/*======== Home Section ========*/
+.page.section-home {
+  background-color: #112240; /* Slightly lighter navy blue */
+}
+
+.page.section-home .banner-text .animate-title {
+  color: #64ffda; /* Teal accent */
+}
+
+.page.section-home .banner-text h4 {
+  color: #c9d1d9; /* Light gray */
+}
+
+/*======== Buttons ========*/
+.main-btn,
+.submition-btn {
+  color: #64ffda; /* Teal accent */
+  border-color: #64ffda; /* Teal accent */
+}
+
+.main-btn:hover,
+.submition-btn:hover {
+  background-color: #52d1b2; /* Slightly darker teal */
+  border-color: #52d1b2; /* Slightly darker teal */
+}
+
+/*======== Guide Section ========*/
+.guide-content {
+  background: linear-gradient(
+    135deg,
+    #112240,
+    #0a192f
+  ); /* Dark blue gradient */
+  box-shadow: 0 12px 40px rgba(6, 2, 65, 0.4); /* Darker shadow */
+}
+
+.guide-content:hover {
+  box-shadow: 0 15px 50px rgba(6, 2, 65, 0.4); /* Darker shadow */
+}
+
+.guide-content h3 {
+  color: #64ffda; /* Teal accent */
+}
+
+.guide-content h3 i {
+  color: #52d1b2; /* Slightly darker teal */
+}
+
+.guide-content p {
+  color: #c9d1d9; /* Light gray */
+}
+
+/*======== Gallery Section ========*/
+.gallery-item {
+  background: #112240; /* Slightly lighter navy blue */
+  box-shadow: 0 6px 15px rgba(0, 2, 50, 0.4); /* Darker shadow */
+}
+
+.gallery-item p {
+  color: #64ffda; /* Teal accent */
+}
+
+/*======== FAQ Section ========*/
+.faq-list {
+  background: #112240; /* Slightly lighter navy blue */
+  box-shadow: 0 10px 25px rgba(0, 2, 50, 0.4); /* Darker shadow */
+}
+
+.faq-list:hover {
+  box-shadow: 0 15px 35px rgba(0, 2, 50, 0.4); /* Darker shadow */
+}
+
+.faq-list h3 {
+  color: #64ffda; /* Teal accent */
+}
+
+.faq-list h3 i {
+  color: #52d1b2; /* Slightly darker teal */
+}
+
+.faq-item {
+  background: #0a192f; /* Dark navy blue */
+}
+
+.faq-item:hover {
+  box-shadow: 0 6px 20px rgba(0, 17, 56, 0.3); /* Darker shadow */
+}
+
+.faq-question {
+  background: #64ffda; /* Teal accent */
+  color: #0a192f; /* Dark navy blue */
+}
+
+.faq-answer {
+  color: #c9d1d9; /* Light gray */
+}
+
+.faq-question:hover {
+  background: #52d1b2; /* Slightly darker teal */
+}
+
+/*======== Chat Section ========*/
+.chat-container {
+  background-color: #112240; /* Slightly lighter navy blue */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Darker shadow */
+}
+
+.chat-header {
+  background-color: rgba(100, 255, 218, 0.8); /* Semi-transparent teal */
+}
+
+.chat-title {
+  color: #0a192f; /* Dark navy blue */
+}
+
+.chat-action-btn {
+  background-color: rgba(10, 25, 47, 0.8); /* Semi-transparent dark navy blue */
+  color: #64ffda; /* Teal accent */
+}
+
+.chat-action-btn:hover {
+  background-color: rgba(10, 25, 47, 0.9); /* Slightly more opaque */
+}
+
+.message-space {
+  background-color: #0a192f; /* Dark navy blue */
+}
+
+#chatbox .outgoing p {
+  background-color: #64ffda; /* Teal accent */
+  color: #0a192f; /* Dark navy blue */
+}
+
+#chatbox .incoming p {
+  background-color: #112240; /* Slightly lighter navy blue */
+  color: #c9d1d9; /* Light gray */
+}
+
+.chat-input {
+  background-color: #112240; /* Slightly lighter navy blue */
+  border-top: 1px solid #0a192f; /* Dark navy blue */
+}
+
+.chat-input textarea {
+  border: 1px solid #0a192f; /* Dark navy blue */
+  background-color: #0a192f; /* Dark navy blue */
+  color: #c9d1d9; /* Light gray */
+}
+
+.chat-input textarea:focus {
+  border-color: #64ffda; /* Teal accent */
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.2); /* Teal shadow */
+}
+
+.chat-input button {
+  background-color: #64ffda; /* Teal accent */
+  color: #0a192f; /* Dark navy blue */
+}
+
+.chat-input button:hover {
+  background-color: #52d1b2; /* Slightly darker teal */
+}
+
+/*======== Feedback Section ========*/
+#feedback-form {
+  background-color: #112240; /* Slightly lighter navy blue */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Darker shadow */
+}
+
+.form-group input,
+.form-group textarea {
+  border: 1px solid #0a192f; /* Dark navy blue */
+  color: #c9d1d9; /* Light gray */
+  background-color: #0a192f; /* Dark navy blue */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #64ffda; /* Teal accent */
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.2); /* Teal shadow */
+}
+
+#feedback-rating {
+  border: 1px solid #0a192f; /* Dark navy blue */
+  color: #c9d1d9; /* Light gray */
+  background-color: #0a192f; /* Dark navy blue */
+}
+
+#feedback-rating:focus {
+  border-color: #64ffda; /* Teal accent */
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.2); /* Teal shadow */
+}
+
+#cf-submit {
+  background-color: #64ffda; /* Teal accent */
+  color: #0a192f; /* Dark navy blue */
+}
+
+#cf-submit:hover {
+  background-color: #52d1b2; /* Slightly darker teal */
+}
+
+::placeholder {
+  color: #8892b0; /* Light gray placeholder */
+}
+
+/*======== Login Modal ========*/
+#login-modal {
+  background: rgba(10, 25, 47, 0.9); /* Semi-transparent dark navy blue */
+}
+
+.modal-content {
+  background: linear-gradient(
+    135deg,
+    #112240,
+    #0a192f
+  ); /* Dark blue gradient */
+  box-shadow: 0 15px 35px rgba(0, 17, 56, 0.4); /* Darker shadow */
+}
+
+.card-front {
+  background: #112240; /* Slightly lighter navy blue */
+  box-shadow: 0 10px 30px rgba(0, 17, 56, 0.4); /* Darker shadow */
+}
+
+.center-wrap h4 {
+  color: #64ffda; /* Teal accent */
+}
+
+.form-style {
+  border: 2px solid #0a192f; /* Dark navy blue */
+  color: #c9d1d9; /* Light gray */
+  background: #0a192f; /* Dark navy blue */
+}
+
+.form-style:focus {
+  border-color: #64ffda; /* Teal accent */
+  background: #112240; /* Slightly lighter navy blue */
+  box-shadow: 0 0 10px rgba(100, 255, 218, 0.2); /* Teal shadow */
+}
+
+.input-icon {
+  color: #64ffda; /* Teal accent */
+}
+
+.btn {
+  background: #64ffda; /* Teal accent */
+  color: #0a192f; /* Dark navy blue */
+}
+
+.btn:hover {
+  background: #52d1b2; /* Slightly darker teal */
+}
+
+#forgot-password {
+  color: #64ffda; /* Teal accent */
+}
+
+#forgot-password:hover {
+  color: #52d1b2; /* Slightly darker teal */
+}

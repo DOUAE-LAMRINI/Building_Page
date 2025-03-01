@@ -1,0 +1,368 @@
+.page {
+  background-color: rgb(255, 255, 255);
+}
+
+.pages-stack--open .page {
+  -webkit-box-shadow: 0 -1px 10px rgba(0, 9, 54, 0.6);
+  box-shadow: 0 -1px 10px rgba(0, 9, 54, 0.6);
+}
+
+body {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+.preloader {
+  background: rgb(0, 4, 20);
+}
+
+.loading-text span:before {
+  color: #e1e1e1;
+}
+
+header .nav-menu .nav-menu--link {
+  color: rgb(0, 29, 82);
+}
+
+header .nav-menu .nav-menu--link:hover,
+header .nav-menu .nav-menu--link.link--active {
+  color: #023e7d;
+}
+
+header .nav-menu .social-links .social-link {
+  color: rgb(0, 29, 82);
+}
+
+header .nav-menu .social-links .social-link:hover {
+  color: #0353a4;
+}
+
+header .nav-menu .copy {
+  color: rgba(0, 24, 60, 0.8);
+}
+
+header .logo {
+  color: #f5f3f4;
+}
+
+header .social-links .social-link:hover {
+  color: rgb(0, 29, 82);
+}
+
+header .menu-button .line {
+  background-color: #fff;
+}
+/*
+header .logo:before {
+  background-color: rgb(9, 60, 118);
+}
+*/
+header .menu-button:before {
+  background-color: rgb(9, 60, 118);
+}
+
+.page.section-home {
+  background-color: rgb(247, 249, 252);
+}
+
+.page.section-home .banner-text .animate-title {
+  color: #0077b6;
+}
+
+.page.section-home .banner-text h4 {
+  color: #012a4a;
+}
+
+.main-btn,
+.submition-btn {
+  color: #051923;
+  border-color: #051923;
+}
+
+.main-btn:hover,
+.submition-btn:hover {
+  background-color: #051923;
+  border-color: #051923;
+}
+
+blockquote {
+  border-color: #051923;
+}
+
+.sub-heading h3:before {
+  background: #051923;
+}
+
+.page-heading h2 {
+  color: rgb(48, 107, 189);
+}
+
+.page-heading h2:before {
+  color: rgba(0, 22, 54, 0.93);
+}
+
+.sub-heading h3 {
+  color: #c8deec;
+}
+.guide-content {
+  background: linear-gradient(135deg, rgb(209, 218, 244), rgb(249, 250, 253));
+  box-shadow: 0 12px 40px rgba(6, 2, 65, 0.27);
+}
+
+.guide-content:hover {
+  box-shadow: 0 15px 50px rgba(6, 2, 65, 0.27);
+}
+
+.guide-content h3 {
+  color: rgb(23, 36, 89);
+}
+
+.guide-content h3 i {
+  color: rgb(50, 101, 194);
+}
+
+.guide-content p {
+  color: rgb(46, 53, 65);
+}
+
+.gallery-item {
+  background: #ffffff;
+  box-shadow: 0 6px 15px rgba(0, 2, 50, 0.2);
+}
+
+.gallery-item p {
+  color: #1a2a6c;
+}
+
+.faq-list {
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 2, 50, 0.2);
+}
+
+.faq-list:hover {
+  box-shadow: 0 15px 35px rgba(0, 2, 50, 0.2);
+}
+
+.faq-list h3 {
+  color: #1a2a6c;
+}
+
+.faq-list h3 i {
+  color: #1a73e8;
+}
+
+.faq-item {
+  background: #f8f9ff;
+}
+
+.faq-item:hover {
+  box-shadow: 0 6px 20px rgba(0, 17, 56, 0.1);
+}
+
+.faq-question {
+  background: #1a73e8;
+}
+
+.faq-answer {
+  color: #4a5568;
+}
+
+.faq-question:hover {
+  background: rgb(90, 159, 248);
+}
+
+#login-modal {
+  background: rgba(0, 17, 56, 0.75);
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #e6f0ff, #d1e4ff);
+  box-shadow: 0 15px 35px rgba(0, 17, 56, 0.1);
+}
+
+.card-front {
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 17, 56, 0.1);
+}
+
+.center-wrap h4 {
+  color: #1a73e8;
+}
+
+.form-style {
+  border: 2px solid #d1e4ff;
+  color: #1a2a6c;
+  background: #f0f7ff;
+}
+
+.form-style:focus {
+  border-color: #1a73e8;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(26, 115, 232, 0.2);
+}
+
+.input-icon {
+  color: #1a73e8;
+}
+
+.btn {
+  background: #1a73e8;
+  color: white;
+}
+
+.btn:hover {
+  background: #1557b0;
+}
+
+#forgot-password {
+  color: #1a73e8;
+}
+
+#forgot-password:hover {
+  color: #1557b0;
+}
+
+.chat-container {
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+/* Chat Header */
+.chat-header {
+  background-color:rgba(63, 141, 235, 0.8); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-title {
+  color:rgb(240, 240, 240); /* White text */
+}
+
+.chat-action-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.chat-action-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
+}
+
+/* Message Space (Scrollable) */
+.message-space {
+  background-color: #f5f9ff;
+}
+
+/* Custom Scrollbar */
+.message-space::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.message-space::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray track */
+  border-radius: 4px;
+}
+
+.message-space::-webkit-scrollbar-thumb {
+  background: #1a73e8; /* Light blue scrollbar thumb */
+  border-radius: 4px;
+}
+
+.message-space::-webkit-scrollbar-thumb:hover {
+  background: #1557b0; /* Darker blue on hover */
+}
+
+
+#chatbox .outgoing p {
+  background-color: #1a73e8; /* Light blue for user messages */
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#chatbox .incoming p {
+  background-color: #e0e7ff; 
+  color: #1a2a6c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-input {
+  background-color: #ffffff; 
+  border-top: 1px solid #e0e7ff; 
+*}
+
+.chat-input textarea {
+  border: 1px solid #e0e7ff;
+}
+
+.chat-input textarea:focus {
+  border-color: #1a73e8; 
+  box-shadow: 0 0 10px rgba(26, 115, 232, 0.2); 
+}
+
+.chat-input button {
+  background-color: #1a73e8; 
+  color: #ffffff; 
+}
+
+.chat-input button:hover {
+  background-color: #1557b0; 
+}
+
+#feedback-form {
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+.form-group input,
+.form-group textarea {
+  border: 1px solid #e0e7ff;
+  color: #1a2a6c; /* Dark blue text */
+  background-color: #f5f9ff; 
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #1a73e8; /* Light blue focus border */
+  box-shadow: 0 0 10px rgba(26, 115, 232, 0.2); /* Light blue shadow */
+}
+
+
+#feedback-rating {
+  border: 1px solid #e0e7ff; 
+  color: #1a2a6c; /* Dark blue text */
+  background-color: #f5f9ff;
+}
+
+#feedback-rating:focus {
+  border-color: #1a73e8; /* Light blue focus border */
+  box-shadow: 0 0 10px rgba(26, 115, 232, 0.2); /* Light blue shadow */
+}
+
+/* Submit Button */
+#cf-submit {
+  background-color: #1a73e8;
+  color: #ffffff;
+}
+
+#cf-submit:hover {
+  background-color: #1557b0; /* Darker blue on hover */
+}
+
+::placeholder {
+  color: #a0aec0; /* Light gray placeholder text */
+}
+
+.preloader .loading-text span:before {
+  color: rgb(255, 255, 255);
+}
+
+.section-gallery .gallery-filter ul li.active {
+  background-color:rgb(175, 175, 175);
+}
+
+.section-gallery .gallery-items .item figure {
+  background: #000000;
+}
+
+header .back-button:before {
+  background-color: #051923;
+}
